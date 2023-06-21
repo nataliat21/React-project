@@ -1,0 +1,69 @@
+.stock{
+    font-size: 15px;
+    font-weight: 700;
+}
+.InputCounter{
+    text-align: center;
+    border: 2px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 5px;
+    margin: 3px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.IncrementBtn, .DecrementBtn{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 3px;
+    font-weight: 600;
+    font-size: 15px;
+    width: 30px;
+    background-color: #CC84BF;
+}
+
+.IncrementBtn:hover, .DecrementBtn:hover, .AddCar:hover{
+    background-color: #cc84bfbf;
+}
+
+.AddCarContainer {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    margin-top: 3px;
+}
+
+.AddCar {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 3px;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #CC84BF;
+    margin-bottom: 10px;
+    
+}
+
+.btnSeguirComprando, .btnIrAlCarrito{
+    background-color: #CC84BF;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.btnSeguirComprando:hover, .btnIrAlCarrito:hover{
+    background-color: #cc84bfbf;
+}
+

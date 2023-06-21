@@ -1,0 +1,19 @@
+
+.NosotrosMainContainer{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.TextNosotrosContainer{
+    background-color: #cc84bf6c;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 10px;
+    box-shadow: 0px 0px 5px 0px #706f70;
+}
+.TextNosotros{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}

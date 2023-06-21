@@ -1,0 +1,143 @@
+.CarritoContainer{
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgba(206, 196, 196, 0.419);
+}
+
+.NoProductos{
+    margin: 230px;
+    font-size: 27px;
+}
+
+.ProductoAgregadoContainer{
+    margin: 10px;
+    padding: 5px ;
+    background-color: rgba(206, 196, 196, 0.601);
+    border-radius: 5px;
+}
+
+.PrecioUnitario{
+    font-weight: bold;
+    margin: 3px;
+}
+
+.Cantidad{
+    font-weight: bold;
+    margin: 3px;
+}
+
+.PrecioPorCantidad{
+    font-weight: bold;
+    margin: 3px;
+}
+
+.BtnEliminar{
+    margin: 5px;
+    padding: 8px;
+    background-color: #CC84BF;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.BtnEliminar:hover{
+    background-color: #cc84bfbf;
+}
+
+.ResumenCompra{
+    margin: 10px;
+    padding: 5px ;
+    background-color: rgba(206, 196, 196, 0.601);
+    border-radius: 5px;
+}
+
+.PrecioTotal{
+    font-size: 20px;
+}
+
+.TotalProductos{
+    font-size: 20px;
+}
+
+.RemoverTodo{
+    margin: 5px;
+    padding: 8px;
+    background-color: #CC84BF;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.RemoverTodo:hover{
+    background-color: #cc84bfbf;
+}
+
+.FormContainer{
+    margin: 30px;
+    padding: 10px;
+    background-color: rgba(206, 196, 196, 0.955);
+    border-radius: 5px;
+}
+
+.TituloFinalizarCompra{
+    margin: 30px;
+}
+
+.InputNombreForm{
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.InputTelefonoForm{
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.InputCorreoForm{
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.InputDireccionForm{
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.EnviarForm{
+    margin: 10px;
+    padding: 8px;
+    background-color: #CC84BF;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.EnviarForm:hover{
+    background-color: #cc84bfbf;
+}
+
+.MensajeOrden{
+    font-weight: bold;
+    margin: 40px;
+}
+
+.RegresoPaginaInicio{
+    margin: 10px;
+    padding: 8px;
+    background-color: #CC84BF;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.RegresoPaginaInicio:hover{
+    background-color: #cc84bfbf;
+}

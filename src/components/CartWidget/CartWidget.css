@@ -1,0 +1,30 @@
+.CartWidgetContainer {
+    position: absolute;
+    top: 25px;
+    right: 40px;
+    background-color: white;
+    width: 50px;
+    border-radius: 3px;
+  }
+.CarContainer {
+    display: flex;
+   
+}
+.Car{
+    width: 30px;
+    height: 30px;
+}
+.NumberContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px; 
+}
+.Number{
+    color: black;
+    font-weight: 600;
+}
+
+
+
+

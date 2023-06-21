@@ -1,0 +1,49 @@
+.NavBarContainer {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 60px;
+    background-color: #CC84BF;
+    padding: 10px;
+    font-size: 23px;
+}
+
+.LogoTrendy {
+    height: 60px;
+    margin: 20px;
+}
+
+.Links-container {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.LinksNavBar {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    
+}
+
+.LinksNavBar:first-child {
+    margin-left: 300px; 
+}
+
+.LinksNavBar.active {
+    /* color: rgba(0, 0, 0, 0.688); */
+    color: rgb(80, 78, 78);
+}
+
+.CartWidgetContainer{
+    position: absolute;
+    display: flex;
+    margin-left: 450px; 
+    /* margin-bottom: 600px; */
+    z-index: 999;
+} 

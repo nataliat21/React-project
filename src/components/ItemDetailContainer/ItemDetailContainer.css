@@ -1,0 +1,16 @@
+.ItemDetailContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.CargandoProducto{
+    background-color: #cc84bfc6;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+}
