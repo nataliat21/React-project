@@ -71,6 +71,7 @@ export const Cart = () => {
             <div className="FormContainer">
                 <h2 className="TituloFinalizarCompra">Estas a un paso de obtener los productos que deseas! Por favor llena los siguientes datos</h2>
             <form onSubmit={sendOrder}>
+                <div className="divForm">
                 <label className="NombreForm">Nombre</label>
                 <input className='InputNombreForm'type="text"  placeholder="Nombre completo" required/>
                 <label className="TelefonoForm">Telefono</label>
@@ -80,6 +81,7 @@ export const Cart = () => {
                 <label className="DireccionForm">Direccion de Residencia</label>
                 <input className="InputDireccionForm" type="text"  placeholder="Ingrese su direccion" required/>
                 <button className="EnviarForm" type="submit">Enviar orden</button>
+                </div>
             </form>
             </div>
 

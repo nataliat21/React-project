@@ -6,6 +6,9 @@ export const Tiendas =() => {
                 <h1>Visítanos en Nuestros Locales</h1>
                 <img src="https://statictrendy.s3.amazonaws.com/wp-content/uploads/2022/09/05174556/casita-1.png" alt="Tienda Ttrendy"></img>
                 </div>
+                
+                <div className="LocationContainerWrapper">
+
                 <div className="LocationContainer">
                     <h2 className="LocationTitle">BOGOTÁ</h2>
                     <p className="LocationP">Centro Comercial Centro Mayor</p>
@@ -60,6 +63,7 @@ export const Tiendas =() => {
                     <p className="LocationP">Carrera 56 # 75 - 155</p>
                     <p className="LocationP">Local 1018</p>
                     <p className="LocationP">Jumbo Altos Del Prado Mal</p>
+                </div>
                 </div>
         </div>
     )

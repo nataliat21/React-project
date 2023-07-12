@@ -32,9 +32,11 @@ export const ItemDetail = ({item}) => {
             </div>
             <div className="ItemDetailDescriptionContainer">
                 <h2>Detalles del Producto</h2>
+                <div className="nombre">
                 <ul>
                     <li className="ItemDetailDescription">{item.description}</li>
                 </ul>
+                </div>
             </div>
         </div>
 

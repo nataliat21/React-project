@@ -10,6 +10,7 @@ import { HazteMayorista } from './components/HazteMayorista/HazteMayorista';
 import { Cart } from './components/Cart/Cart';
 import { ItemDetail } from './components/ItemDetail/ItemDetail';
 import { CartProvider } from './contex/CartContext';
+import { Footer } from './components/Footer/Footer';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
             <Route path="/cart" element={<Cart></Cart>} />
             
           </Routes>
+          <Footer></Footer>
       </div>
     </div>
     </BrowserRouter>

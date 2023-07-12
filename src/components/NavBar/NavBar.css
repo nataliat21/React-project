@@ -1,15 +1,18 @@
 .NavBarContainer {
+    max-width: 100%;
     display: flex;
+    flex-direction: column; 
     align-items: center;
     position: sticky;
     top: 0;
     left: 0;
     z-index: 100;
-    width: 100%;
-    height: 60px;
+    height: auto;
     background-color: #CC84BF;
     padding: 10px;
     font-size: 23px;
+    border: 1px solid gray;
+    border-radius: 3px;
 }
 
 .LogoTrendy {
@@ -17,33 +20,62 @@
     margin: 20px;
 }
 
-.Links-container {
+.LinksContainer {
     display: flex;
-    flex-grow: 1;
-    justify-content: center;
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 5px; 
 }
 
 .LinksNavBar {
-    margin: 0 10px;
+    margin: 10px 0; 
     text-decoration: none;
     color: black;
     font-weight: 600;
-    
-}
-
-.LinksNavBar:first-child {
-    margin-left: 300px; 
 }
 
 .LinksNavBar.active {
-    /* color: rgba(0, 0, 0, 0.688); */
-    color: rgb(80, 78, 78);
+    /* color: rgb(80, 78, 78); */
+    background-color: #d5c2d29a;
+    display: inline-block;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 3px;
 }
 
-.CartWidgetContainer{
-    position: absolute;
-    display: flex;
-    margin-left: 450px; 
-    /* margin-bottom: 600px; */
-    z-index: 999;
-} 
+.CartWidgetContainer {
+    margin-top: 45px;
+    align-self: flex-end; 
+}
+
+@media (min-width: 1200px) {
+    .NavBarContainer {
+        flex-direction: row;
+        align-items: center; 
+        height: 60px; 
+    }
+
+    .LinksNavBar:first-child {
+        margin-left: 260px;
+    }
+
+    .LinksNavBar[href="/haztemayorista"] {
+        white-space: nowrap;
+    }
+
+    .LinksContainer {
+        flex-direction: row; 
+        align-items: center; 
+        margin-top: 0;
+    }
+
+    .LinksNavBar {
+        margin: 0 10px; 
+    }
+
+    .CartWidgetContainer {
+        margin-top: 20px;
+        align-self: flex-end; 
+    }
+}

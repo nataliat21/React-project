@@ -1,5 +1,77 @@
 .MainItemDetailContainer {
     display: flex;
+    flex-direction: column;
+}
+.CardItemDetailContainer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.MainDetailContainer{
+    border: 2px solid black;
+    width: 400px;
+    min-height: 500px; /*Sujeto a cambios*/
+    box-shadow: 0px 0px 10px 0px #CC84BF;
+    background-color: rgba(206, 196, 196, 0.419);
+    border-radius: 5px;
+    margin: 20px;
+}
+.ItemDetailTitle{
+    margin: 5px;
+}
+.ItemDetailPicture{
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 3px;
+    box-shadow: 0px 0px 5px 0px #CC84BF;
+}
+.ItemDetailPriceContainer {
+    margin-top: 10px;
+    background-color: #CC84BF; 
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.ItemDetailPrice {
+    background-color: #CC84BF; 
+    padding: 5px; 
+    color: black; 
+}
+.ItemDetailDescriptionContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.286);
+    border-radius: 10px;
+    margin: 20px;
+    border: 2px solid black;
+}
+.ItemDetailDescriptionContainer h2{
+    color: #e473cf;
+}
+.ItemDetailDescription{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px;
+    list-style: none;
+}
+.ItemCountContainer {
+    bottom: 10px; 
+    margin-top: 10px;
+    left: 0; 
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (min-width: 1200px){
+.MainItemDetailContainer {
+    display: flex;
+    flex-direction: row;
 }
 
 .CardItemDetailContainer {
@@ -67,3 +139,4 @@
     justify-content: center;
 }
 
+}

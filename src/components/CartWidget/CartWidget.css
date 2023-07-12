@@ -1,6 +1,7 @@
 .CartWidgetContainer {
     position: absolute;
-    top: 25px;
+    /* top: 22px; */
+    top: 2px;
     right: 40px;
     background-color: white;
     width: 50px;
@@ -8,7 +9,6 @@
   }
 .CarContainer {
     display: flex;
-   
 }
 .Car{
     width: 30px;
